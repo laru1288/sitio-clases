@@ -36,7 +36,9 @@ body{
 }
 
 .navbarra li a:hover{
-  color:rgb(187, 166, 238)
+  color:rgb(187, 166, 238);
+  font-size: 110%;
+  transition: all 1s;
 }
 
 .active{
@@ -214,6 +216,18 @@ footer li{
   list-style: none;
   display:inline;
   margin-left: 10px;
+}
+
+footer li a{
+  color: rgb(0, 0, 0);
+}
+
+footer li a:hover{
+  padding:10px;
+  background-color: rgb(230, 116, 135);
+  color: black;
+  border-radius: 20%;
+  transition: all 2s;
 }
 
 
