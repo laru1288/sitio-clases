@@ -36,8 +36,7 @@ body{
 }
 
 .navbarra li a:hover{
-  color:rgb(187, 166, 238);
-  font-size: 110%;
+  background-color: rgb(243, 161, 174);
   transition: all 1s;
 }
 
