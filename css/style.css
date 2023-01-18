@@ -55,6 +55,14 @@ h1{
 .modalidad{
   margin-left: 10%;
   margin-right: 10%;
+  background-image: url(../img/corcho.jpg);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  border-color: rgb(172, 122, 86);
+  border-style:groove;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 h2{
@@ -69,6 +77,13 @@ h2{
 
 #terminos {
   list-style-position: inside;
+}
+
+.boton{
+  padding: 2px;
+  background-color: yellow;
+  font-size: larger;
+  border-radius: 10%;
 }
 
 #metodologia,
@@ -127,6 +142,7 @@ td{
   margin-left: auto;
   margin-right: auto;
   padding: 10px;
+  border-style: double;
 }
 
 .card_profe{
@@ -220,7 +236,8 @@ footer {
 footer li{
   list-style: none;
   display:inline;
-  margin-left: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 footer li a{
