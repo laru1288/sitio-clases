@@ -130,7 +130,8 @@ td{
 
 .profes{
   background-image: url(../img/corcho.jpg);
-  margin: 15px;
+  margin: 5%;
+  margin-top: 2%;
   padding: 10px;
   border-style:groove;
   border-color: rgb(172, 122, 86);
@@ -148,7 +149,6 @@ td{
 .card_profe{
   padding: 10px;
   border-radius: 10px;
-  height: max-content;
 }
 
 .card_titulo{
@@ -179,9 +179,8 @@ td{
 
 .insta{
   background-image: url(../img/corcho.jpg);
-  margin-top: 20px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-top: 2%;
+  margin-bottom: 5%;
 }
 
 form{
