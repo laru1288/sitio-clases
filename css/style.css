@@ -14,6 +14,7 @@ body{
 
 .navbarra{
   background-color: rgb(245, 210, 216); 
+  margin-bottom: 15px;
 }
 
 .sub {
@@ -52,17 +53,8 @@ h1{
   font-size: 3vmax
 }
 
-.modalidad{
-  margin-left: 10%;
-  margin-right: 10%;
-  background-image: url(../img/corcho.jpg);
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-bottom: 2%;
-  border-color: rgb(172, 122, 86);
-  border-style:groove;
-  margin-top: 2%;
-  margin-bottom: 5%;
+.calesita{
+  margin: auto;
 }
 
 h2{
@@ -71,34 +63,39 @@ h2{
   margin-bottom: 15px;
 }
 
-.modalidad p, li{
+.corcho {
+  background-image: url(../img/corcho.jpg);
+  margin: auto;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px;
+  border-style:groove;
+  border-color: rgb(172, 122, 86);
+}
+
+.corcho p, li{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#terminos {
-  list-style-position: inside;
+.cartelito{
+  width: fit-content;
+  background-color: rgb(250, 215, 234);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-style: double;
 }
 
-.boton{
-  padding: 2px;
-  background-color: yellow;
-  font-size: larger;
-  border-radius: 10%;
-}
-
-#metodologia,
-#pagos,
-#terminos{
+.notita {
+  background-color: rgb(245, 245, 85);
   margin-top: 15px;
-  background-color: rgb(248, 248, 54);
   padding: 15px;
   border-style: double;
   border-color: black;
 }
 
-
 .dia{
-  background-color: rgb(187, 166, 238);
+  text-align: center;
 }
 
 .ocupado{
@@ -110,9 +107,6 @@ h2{
 }
 
 .dias{
-  border-style: double;
-  border-color: black;
-  padding: 2%;
   width: 18rem;
   margin: auto;
   margin-bottom: 15px;
@@ -131,24 +125,6 @@ h2{
   padding: 2%;
   width: 20%;
   text-align: center;
-}
-
-.profes{
-  background-image: url(../img/corcho.jpg);
-  margin: 5%;
-  margin-top: 2%;
-  padding: 10px;
-  border-style:groove;
-  border-color: rgb(172, 122, 86);
-}
-
-.cartelito{
-  width: fit-content;
-  background-color: rgb(250, 215, 234);
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  border-style: double;
 }
 
 .card_profe{
@@ -176,51 +152,27 @@ h2{
 }
 
 .card_parrafo{
-  height:fit-content;
   background-color: antiquewhite;
   padding: 15px;
   margin-top: 0px;
 }
 
-.insta{
-  background-image: url(../img/corcho.jpg);
-  margin-top: 2%;
-  margin-bottom: 5%;
-}
 
-form{
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 5%;
-  background-image: url(../img/corcho.jpg);
-  padding: 15px;
-  border-style:groove;
-  border-color: rgb(172, 122, 86);
-}
-
-form label{
+.papelito{
   font-size: large;
   background-color: rgb(255, 255, 255);
-  margin-bottom: 100px;
-  margin-right: 20px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+ 
+form button{
+  margin: auto;
 }
 
-form button, select{
-  font-size: large;
-}
 
-.form_datos
-.form_check
-.form_msj
-.form_boton{
-  margin-bottom: 10px;
-}
 
 form p{
-  background-color: rgb(245, 245, 85);
   width: 30%;
-  padding: 5px;
-  margin-top: 10px;
 }
 
 form textarea{
@@ -237,11 +189,12 @@ footer {
   padding-block: 10px;
 }
 
-footer li{
+footer ul{
   list-style: none;
-  display:inline;
-  margin-left: 20px;
-  margin-right: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
 
 footer li a{
