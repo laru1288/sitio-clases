@@ -96,37 +96,42 @@ h2{
   border-color: black;
 }
 
-table{
-  table-layout: fixed;
-  border-collapse: collapse;
-  empty-cells: show;
-  width: 1000px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: black;
-}
 
-.cabecera{
+.dia{
   background-color: rgb(187, 166, 238);
 }
 
-.hora{
-  background-color: rgb(238, 238, 146);
-}
-
-td{
-  padding: 10px 10px 10px 10px;
-}
-
 .ocupado{
-  background-color: rgb(204, 74, 74);
+  background-color: rgba(255, 3, 3, 0.603);
 }
 
 .disponible{
-  background-color: rgb(69, 153, 69);
+  background-color: rgba(7, 131, 7, 0.603);
 }
 
+.dias{
+  border-style: double;
+  border-color: black;
+  padding: 2%;
+  width: 18rem;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.dias ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.dias ul li{
+  border-style:double;
+  border-color: black;
+  padding: 2%;
+  width: 20%;
+  text-align: center;
+}
 
 .profes{
   background-image: url(../img/corcho.jpg);
