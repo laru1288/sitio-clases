@@ -157,7 +157,6 @@ h2{
   margin-top: 0px;
 }
 
-
 .papelito{
   font-size: large;
   background-color: rgb(255, 255, 255);
@@ -168,8 +167,6 @@ h2{
 form button{
   margin: auto;
 }
-
-
 
 form p{
   width: 30%;
@@ -208,5 +205,3 @@ footer li a:hover{
   border-radius: 20%;
   transition: all 2s;
 }
-
-
