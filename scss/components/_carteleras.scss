@@ -1,0 +1,30 @@
+.corcho {
+    background-image: url(../img/corcho.jpg);
+    margin: auto;
+    margin-bottom: nth($size,2)*3;
+    width: 100%;
+    padding: nth($size,2)*2;
+    border-style:groove;
+    border-color: $bor-corcho;
+        p, li{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+  }
+    
+  .cartelito{
+    width: fit-content;
+    background-color: $bg-cartelito;
+    margin-left: auto;
+    margin-right: auto;
+    padding: nth($size,2)*2;
+    border-style: double;
+  }
+  
+  .notita {
+    background-color: $bg-notita;
+    margin-top: nth($size,2)*3;
+    padding: nth($size,2)*3;
+    border-style: double;
+    border-color: $negro;
+  }
+  

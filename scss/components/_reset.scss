@@ -1,5 +1,5 @@
 * { 
-    margin: 0; 
-    padding: 0; 
+    margin: nth($size,3); 
+    padding: nth($size,3); 
     box-sizing: border-box;
   }

@@ -1,8 +1,16 @@
 //base
 @import './base/variables';
+@import './base/list';
 
 //components
 @import './components/header';
-@import './components/styleold';
 @import './components/reset';
 @import './components/body';
+@import './components/titulos';
+@import './components/subtitulo';
+@import './components/calesita';
+@import './components/carteleras';
+@import './components/horarios';
+@import './components/tarjetas';
+@import './components/formulario';
+@import './components/footer';

@@ -1,31 +1,30 @@
-.navbarra{
+header{
+  .navbarra{
     background-color: $bg-navfoot; 
-    margin-bottom: 15px;
-  }
+    margin-bottom: nth($size,2)*3;
 
-  .navbarra li:hover .sub{
-    display: block;
-  }
-  
-  .navbarra li a{
-    color: black;
-    text-decoration: none;
-  }
-  
-  .navbarra li a:hover{
-    background-color: $bg-navhov;
-    transition: all 1s;
-  }
-  
+    a{
+      color: black;
+      text-decoration: none;
+
+      &:hover{
+        background-color: $navfoot-hov;
+        transition: all 1s;
+      }
+    }
     
+  }
+}
+
   .sub {
     background-color: $bg-navfoot; 
     display: none;
+
+    a{
+      padding: nth($size,2);
+    }
   }
-  .sub li a{
-    display: block;
-    padding: 5px;
-  }
+
   .active{
     text-transform: uppercase;
   }

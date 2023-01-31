@@ -1,0 +1,32 @@
+  .dia {
+    text-align: center;
+  }
+
+  .ocupado {
+    background-color: $bg-ocupado;
+  }
+
+  .disponible {
+    background-color: $bg-disponible;
+  }
+
+  .dias {
+    width: 18rem;
+    margin: auto;
+    margin-bottom: nth($size, 2)*3;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      padding: nth($size,3);
+
+      li {
+        border-style: double;
+        border-color: black;
+        padding: 2%;
+        width: 20%;
+        text-align: center;
+      }
+    }
+  }
