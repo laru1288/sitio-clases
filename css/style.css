@@ -64,7 +64,8 @@ h2 {
   border-style: groove;
   border-color: rgb(172, 122, 86);
 }
-.corcho p, .corcho li {
+.corcho p,
+.corcho li {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
