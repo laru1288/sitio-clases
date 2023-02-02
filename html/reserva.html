@@ -69,88 +69,90 @@
             </div>
         </nav>
     </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <form class="corcho col-lg-10 col-12">
+                    <h1 class="cartelito">¡Reserva tu clase!</h1>
+                    <div class="container">
+                        <div class="row">
+                            <section class="form_datos col-lg-12 col-12">
+                                <div class="container">
+                                    <div class="row">
+                                        <label for="nombre" class="papelito col-lg-4 col-12">Nombre:
+                                            <input type="text" id="nombre" required>
+                                        </label>
+                                        <label for="apellido" class="papelito col-lg-4 col-12">Apellido:
+                                            <input type="text" id="nombre" required>
+                                        </label>
+                                        <label for="mail" class="papelito col-lg-4 col-12">Mail:
+                                            <input type="email" id="mail" required>
+                                        </label>
+                                    </div>
+                                </div>
+                            </section>
 
-    <div class="container">
-        <div class="row">
-            <form class="corcho col-lg-10 col-12">
-                <h1 class="cartelito">¡Reserva tu clase!</h1>
-                <div class="container">
-                    <div class="row">
-                        <section class="form_datos col-lg-12 col-12">
-                            <div class="container">
-                                <div class="row">
-                                    <label for="nombre" class="papelito col-lg-4 col-12">Nombre:
-                                        <input type="text" id="nombre" required>
-                                    </label>
-                                    <label for="apellido" class="papelito col-lg-4 col-12">Apellido:
-                                        <input type="text" id="nombre" required>
-                                    </label>
-                                    <label for="mail" class="papelito col-lg-4 col-12">Mail:
-                                        <input type="email" id="mail" required>
-                                    </label>
+                            <section class="form_select col-lg-12 col-12">
+                                <div class="container">
+                                    <div class="row">
+                                        <select name="" id="nivel" class="papelito col-lg-4 col-10">
+                                            <option disabled selected>Selecciona tu nivel</option>
+                                            <option>No lo se</option>
+                                            <option>A1</option>
+                                            <option>A2</option>
+                                            <option>B1</option>
+                                            <option>B2</option>
+                                            <option>C1</option>
+                                            <option>C2</option>
+                                        </select>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
-                        </br>
-                        <section class="form_select col-lg-12 col-12">
-                            <div class="container">
-                                <div class="row">
-                                    <select name="" id="nivel" class="papelito col-lg-4 col-10">
-                                        <option disabled selected>Selecciona tu nivel</option>
-                                        <option>No lo se</option>
-                                        <option>A1</option>
-                                        <option>A2</option>
-                                        <option>B1</option>
-                                        <option>B2</option>
-                                        <option>C1</option>
-                                        <option>C2</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </section>
-                        </br>
-                        <section class="form_check col-lg-12 col-12">
-                            <div class="container">
-                                <div class="row">
-                                    <p class="papelito col-lg-3 col-6">Elige un horario:</p>
-                                    <label for="man" class="papelito col-lg-3 col-6">
-                                        <input type="radio" name="horario" id="man">Mañana
-                                    </label>
-                                    <label for="tar" class="papelito col-lg-3 col-6">
-                                        <input type="radio" name="horario" id="tar">Tarde
-                                    </label>
-                                    <label for="noc" class="papelito col-lg-3 col-6">
-                                        <input type="radio" name="horario" id="noc">Noche
-                                    </label>
-                                </div>
-                            </div>
-                        </section>
-                        </br>
-                        <section class="form_msj">
-                            <div class="container">
-                                <div class="row">
-                                    <label for="mensaje" class="papelito col-lg-12 col-12">Mensaje:</br>
-                                        <textarea name="" id="mensaje" cols="60" rows="10" required></textarea>
-                                    </label>
+                            </section>
 
-                                    <p class="notita col-lg-4 col-12">Recorda que al reservar tus clases te comprometes
-                                        al pago de las mismas, si no estas seguro envianos una consulta primero.</p>
+                            <section class="form_check col-lg-12 col-12">
+                                <div class="container">
+                                    <div class="row">
+                                        <p class="papelito col-lg-3 col-6">Elige un horario:</p>
+                                        <label for="man" class="papelito col-lg-3 col-6">
+                                            <input type="radio" name="horario" id="man">Mañana
+                                        </label>
+                                        <label for="tar" class="papelito col-lg-3 col-6">
+                                            <input type="radio" name="horario" id="tar">Tarde
+                                        </label>
+                                        <label for="noc" class="papelito col-lg-3 col-6">
+                                            <input type="radio" name="horario" id="noc">Noche
+                                        </label>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
-                        </br>
-                        <section class="form_boton">
-                            <div class="container">
-                                <div class="row">
-                                    <button type="submit" class="papelito col-lg-3 col-8">Enviar</button>
+                            </section>
+
+                            <section class="form_msj">
+                                <div class="container">
+                                    <div class="row">
+                                        <label for="mensaje" class="papelito col-lg-12 col-12">Mensaje:</br>
+                                            <textarea name="" id="mensaje" cols="60" rows="10" required></textarea>
+                                        </label>
+
+                                        <p class="notita col-lg-4 col-12">Recorda que al reservar tus clases te
+                                            comprometes
+                                            al pago de las mismas, si no estas seguro envianos una consulta primero.</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </section>
+                            </section>
+
+                            <section class="form_boton">
+                                <div class="container">
+                                    <div class="row">
+                                        <button type="submit" class="papelito col-lg-3 col-8">Enviar</button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
-    </div>
+    </main>
     <footer>
         <ul>
             <li><a target="_blank" href="mailto:clasesdeingleskarinayco@gmail.com"><i
