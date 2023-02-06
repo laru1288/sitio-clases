@@ -23,6 +23,11 @@ header .navbarra a:hover {
   text-transform: uppercase;
 }
 
+.dropdown-item.active {
+  color: black;
+  background-color: rgb(255, 211, 219);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -79,8 +84,10 @@ h2 {
 }
 
 .notita {
+  margin: auto;
   background-color: rgb(245, 245, 85);
   margin-top: 15px;
+  margin-bottom: 15px;
   padding: 15px;
   border-style: double;
   border-color: black;
@@ -150,6 +157,7 @@ h2 {
   font-size: large;
   background-color: rgb(255, 255, 255);
   padding: 10px;
+  margin: auto;
   margin-bottom: 15px;
 }
 

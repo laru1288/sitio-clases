@@ -28,3 +28,8 @@ header {
 .active {
   text-transform: uppercase;
 }
+
+.dropdown-item.active{
+    color: $negro;
+    background-color: $card-hov;
+  }
