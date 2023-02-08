@@ -1,0 +1,21 @@
+.papelito {
+    font-size: large;
+    background-color: $bg-papelito;
+    padding: nth($size, 2)*2;
+    margin:auto;
+    margin-bottom: nth($size, 2)*3;
+}
+
+form {
+    button {
+        margin: auto;
+    }
+
+    p {
+        width: 30%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}

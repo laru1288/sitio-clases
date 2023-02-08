@@ -1,66 +1,63 @@
-* { 
-  margin: 0; 
-  padding: 0; 
+header .navbarra {
+  background-color: rgb(245, 210, 216);
+  margin-bottom: 15px;
+}
+header .navbarra a {
+  color: black;
+  text-decoration: none;
+}
+header .navbarra a:hover {
+  background-color: rgb(230, 116, 135);
+  transition: all 1s;
+}
+
+.sub {
+  background-color: rgb(245, 210, 216);
+  display: none;
+}
+.sub a {
+  padding: 5px;
+}
+
+.active {
+  text-transform: uppercase;
+}
+
+.dropdown-item.active {
+  color: black;
+  background-color: rgb(255, 211, 219);
+}
+
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-body{
-  background-image: url("../img/fondo.png") ;
+body {
+  background-image: url("../img/fondo.png");
   background-attachment: fixed;
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;
 }
 
-.navbarra{
-  background-color: rgb(245, 210, 216); 
-  margin-bottom: 15px;
-}
-
-.sub {
-  background-color: rgb(245, 210, 216); 
-  display: none;
-}
-
-.navbarra li:hover .sub{
-  display: block;
-}
-
-.sub li a{
-  display: block;
-  padding: 5px;
-}
-
-.navbarra li a{
-  color: black;
-  text-decoration: none;
-}
-
-.navbarra li a:hover{
-  background-color: rgb(243, 161, 174);
-  transition: all 1s;
-}
-
-.active{
-  text-transform: uppercase;
-}
-
-h1{
-  font-family: 'Libre Franklin', sans-serif;
+h1 {
+  font-family: "Libre Franklin", sans-serif;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 3vmax
-}
-
-.calesita{
-  margin: auto;
-}
-
-h2{
-  font-family: 'Libre Franklin', sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-size: 3vmax;
+}
+
+h2 {
+  font-family: "Libre Franklin", sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.calesita {
+  margin: auto;
 }
 
 .corcho {
@@ -69,15 +66,15 @@ h2{
   margin-bottom: 15px;
   width: 100%;
   padding: 10px;
-  border-style:groove;
+  border-style: groove;
   border-color: rgb(172, 122, 86);
 }
-
-.corcho p, li{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.corcho p,
+.corcho li {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.cartelito{
+.cartelito {
   width: fit-content;
   background-color: rgb(250, 215, 234);
   margin-left: auto;
@@ -87,95 +84,90 @@ h2{
 }
 
 .notita {
+  margin: auto;
   background-color: rgb(245, 245, 85);
   margin-top: 15px;
+  margin-bottom: 15px;
   padding: 15px;
   border-style: double;
   border-color: black;
 }
 
-.dia{
+.dia {
   text-align: center;
 }
 
-.ocupado{
+.ocupado {
   background-color: rgba(255, 3, 3, 0.603);
 }
 
-.disponible{
+.disponible {
   background-color: rgba(7, 131, 7, 0.603);
 }
 
-.dias{
+.dias {
   width: 18rem;
   margin: auto;
   margin-bottom: 15px;
 }
-
-.dias ul{
+.dias ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
 }
-
-.dias ul li{
-  border-style:double;
+.dias ul li {
+  border-style: double;
   border-color: black;
   padding: 2%;
   width: 20%;
   text-align: center;
 }
 
-.card_profe{
+.card_profe {
   padding: 10px;
   border-radius: 10px;
 }
-
-.card_titulo{
-  background-color: rgb(250, 215, 234);
-  text-align: center;
-  margin-bottom: 0px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.card_foto{
-  border-radius: 2%;
-  border-style:dotted;
-  border-color: rgb(250, 215, 234);
-}
-
-.card_profe img:hover{
-  transform:scale(0.9,0.9);
+.card_profe img:hover {
+  transform: scale(0.9, 0.9);
   transition: 2s;
   background-color: rgb(255, 211, 219);
 }
 
-.card_parrafo{
-  background-color: antiquewhite;
-  padding: 15px;
-  margin-top: 0px;
+.card_titulo {
+  background-color: rgb(250, 215, 234);
+  text-align: center;
+  margin-bottom: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.card_foto {
+  border-radius: 2%;
+  border-style: dotted;
+  border-color: rgb(250, 215, 234);
+}
 
-.papelito{
+.card_parrafo {
+  background-color: antiquewhite;
+  padding: 15px;
+  margin-top: 0;
+}
+
+.papelito {
   font-size: large;
   background-color: rgb(255, 255, 255);
   padding: 10px;
+  margin: auto;
   margin-bottom: 15px;
 }
- 
-form button{
+
+form button {
   margin: auto;
 }
-
-
-
-form p{
+form p {
   width: 30%;
 }
-
-form textarea{
+form textarea {
   width: 100%;
 }
 
@@ -188,25 +180,22 @@ footer {
   text-align: center;
   padding-block: 10px;
 }
-
-footer ul{
+footer ul {
   list-style: none;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
-
-footer li a{
-  color: rgb(0, 0, 0);
+footer ul li a {
+  color: black;
 }
-
-footer li a:hover{
-  padding:10px;
+footer ul li a:hover {
+  padding: 10px;
   background-color: rgb(230, 116, 135);
   color: black;
   border-radius: 20%;
   transition: all 2s;
 }
 
-
+/*# sourceMappingURL=style.css.map */
